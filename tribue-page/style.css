@@ -1,31 +1,40 @@
 h1 {
     text-align: center;
-}
-p {
+  }
+  p {
     text-align: center;
-}
-h2 {
+  }
+  h2 {
     text-align: center;
-}
-body {
+  }
+  body {
     background-color: lightgrey;
-}
-img {
+  }
+  img {
+    max-width: 100%;
     background-color: white;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-ul {
+  }
+  ul {
     max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
   }
-.highlight-word-color {
+  .highlight-word-color {
     color: purple;
-}
-.Wikipedia entry {
+  }
+  .Wikipedia entry {
     text-align: center;
-}
+  }
+  figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  figcaption {
+    padding: 20px;
+  }
+  
