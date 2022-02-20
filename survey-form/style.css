@@ -6,7 +6,17 @@ p {
 }
 #survey-form {
     text-align: center;
+    background-color: rgb(208, 208, 250);
+    background-size: 300px 50px;
+    opacity: 0,5;
+    margin-right: 400px;
+    margin-left: 400px;
+    border: 1px solid rgb(163, 163, 216);
+    opacity: 0.5;
+    border-style: round;
+    
+   
 }
 body {
-    background-image: url("/doctor-pic.jpg")
+    background-image: url("doctor-pic.jpg")
 }
