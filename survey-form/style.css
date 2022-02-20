@@ -1,0 +1,12 @@
+h1 {
+   text-align: center;
+}
+p {
+    text-align: center;
+}
+#survey-form {
+    text-align: center;
+}
+body {
+    background-image: url("../img/butterflies.jpg")
+}
