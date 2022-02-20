@@ -7,6 +7,41 @@
     <title>survey-form</title>
 </head>
 <body>
+    <h1 id="title">Rate Doctor Meryem Benjelloun clinic</h1>
+    <p id="description">please fill in this form provide better info about this service</p>
+    <form id="survey-form">
+        <label id="name-label" placeholder="Enter your name">Name</label>
+        <input id="name" required>
+        <label id="email-label" placeholder="Enter your email">Email</label>
+        <input id="email" type="email" required>
+        <label id="number-label" placeholder="Enter your number">Number</label>
+        <input id="number" min="0" max="10" required>   
+
+        <label for="dropdown">choose your lavel of satisfaction
+    <select id="dropdown">
+        <option value="satisfied">unsatisfied</option>
+        <option value="unsatisfied">satisfied</option>
+        <option value="very satisfied">very satisfied</option>
+    </select>
+        </label>
+
+    <label for="radio"> How often did you visit the clinic
+        <input type="radio" id="radio" name="visit" value="only-one-time">only one time.
+        <input type="radio"  id="radio" name="visit" value="two-times-or-more">two times or more.
+    </label>
+
+    <label for="checkbox">For what issues did you visit us check all the options that apply
+    <input type="checkbox" id="checkbox" name="checkbox" value="dental-care">dental care.
+    <input type="checkbox" id="checkbox" name="checkbox" value="heart">heart
+    <input type="checkbox" id="checkbox" name="checkbox" value="headache">headache
+    <input type="checkbox" id="checkbox" name="checkbox" value="immune-ystem">immune ystem
+    <input type="checkbox" id="checkbox" name="checkbox" value="other">other.
+    </label >
+     
     
+    <textarea name="comment" form="usrform">please could you give more details about your experience</textarea>
+    <input type="submit" value="submit">
+    </form>
+
 </body>
 </html>
