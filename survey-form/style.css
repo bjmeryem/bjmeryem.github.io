@@ -5,15 +5,36 @@ p {
     text-align: center;
 }
 #survey-form {
-    text-align: center;
+    text-align: left;
     background-color: rgb(227, 227, 253);
     border-radius: 13px;
     margin-right: 400px;
     margin-left: 400px;
     margin-bottom: 0px;
     border: 5px solid rgb(184, 184, 245);
-    opacity: 0.5;
+    opacity: 0.8;
+    padding-left: 20px;
+    height: max-content;
+    font-size: larger;
+    font-weight: 400;
 }
 body {
     background-image: url("doctor-pic.jpg")
 }
+textarea {
+    width: 500px;
+    height: 100px;
+    margin-left: 80px;
+  }
+  #submit {
+      width: 200px;
+      margin-left: 230px;
+      height: 40px;
+      font-size: large;
+      border-radius: 20%;
+  }
+  #submit:hover {
+      background-color: rgb(100, 100, 189);
+      width: 210px;
+      height: 50px;
+  }
