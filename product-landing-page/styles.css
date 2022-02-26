@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(226, 198, 105);
+    background-color: #5be4f3;
 }
 
 h1 {
@@ -12,5 +12,65 @@ h1 {
     text-align: center;
 }
 #same {
-    display: ;
+    text-align: center;
 }
+#form {
+    text-align: center;
+}
+#email {
+    height: 30px;
+    width: 350px;
+}
+#submit {
+    height: 30px;
+    width: 150px;
+    border-radius: 9px;
+    background-color: #25a0ad;
+}
+
+#nav-bar {
+    padding: 3px;
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    @media (max-width: 568px) {
+      margin-top: 1px;
+      display: fle;
+      flex-direction: column;;
+      align-items: center;
+      text-align: center;
+    }
+
+.nav-link {
+        margin: 23px;
+        padding: 11px;
+        font-size: 19px;
+        text-decoration: none;
+        color: rgb(51,51,51);
+    }
+        @media (max-width: 568px) {
+          flex-direction: column;
+        } 
+    
+button {
+        margin: 11px;
+        padding: 7px;
+        background-color: #25a0ad;
+        border: 3px solid rgb(51,51,51);
+        border-radius: 9px;
+    }
+        @media (max-width: 568px) {
+          flex-direction: column;
+        }
+      
+#same {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3rem 0.2rem;
+    }
