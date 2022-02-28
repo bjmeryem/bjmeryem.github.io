@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 
 }
-#informations {
+#information {
     text-align: center;
 }
 #pricing {
@@ -32,33 +32,27 @@ h1 {
 }
 
 #nav-bar {
-    padding: 3px;
-    margin-left: 900px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-end;
     }
 
     @media (max-width: 568px) {
-      margin-top: 1px;
-      display: flex;
-      flex-direction: column;;
-      align-items: center;
-      text-align: center;
+        body {
+        margin-top: 1px;
+        display: flex;
+        flex-direction: column;;
+        align-items: center;
+        text-align: center;
+        }
     }
 
 .nav-link {
         margin: 23px;
-        padding: 11px;
         font-size: 19px;
         text-decoration: none;
         color: rgb(51,51,51);
     }
-        @media (max-width: 568px) {
-          flex-direction: column;
-        } 
-    
+
 button {
         margin: 11px;
         padding: 7px;
@@ -66,10 +60,7 @@ button {
         border: 3px solid rgb(51,51,51);
         border-radius: 9px;
     }
-        @media (max-width: 568px) {
-          flex-direction: column;
-        }
-      
+
 #pricing {
         display: flex;
         justify-content: center;
@@ -86,25 +77,51 @@ button {
         text-align: center;
         padding: 101px;
 }
-.host-1 {
-    border-radius: 25px;
-    border: 2px solid hsl(186, 52%, 42%);
-    padding: 20px; 
-    width: 200px;
-    height: 150px;  
-}
-.host-2 {
+.pricing-1 {
     border-radius: 25px;
     border: 2px solid hsl(186, 52%, 42%);
     padding: 20px; 
     width: 200px;
     height: 150px;
 }
-.host-3 {
+.pricing-2 {
     border-radius: 25px;
     border: 2px solid hsl(186, 52%, 42%);
-    padding: 20px; 
+    padding: 20px;
     width: 200px;
     height: 150px;
-    text-decoration:;
+}
+.pricing-3 {
+    border-radius: 25px;
+    border: 2px solid hsl(186, 52%, 42%);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.button:hover {
+    color: greenyellow;
+    background: #3B5998;
+    border-color: green;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+    border: solid yellow 2px;
+}
+
+@media (max-width: 568px) {
+    body {
+        flex-direction: column;
+    }
 }
