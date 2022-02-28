@@ -36,15 +36,7 @@ h1 {
     justify-content: flex-end;
     }
 
-    @media (max-width: 568px) {
-        body {
-        margin-top: 1px;
-        display: flex;
-        flex-direction: column;;
-        align-items: center;
-        text-align: center;
-        }
-    }
+    
 
 .nav-link {
         margin: 23px;
@@ -122,6 +114,10 @@ button {
 
 @media (max-width: 568px) {
     body {
-        flex-direction: column;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    text-align: center;
     }
 }
