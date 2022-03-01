@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #a7e8f0;
 }
@@ -32,11 +36,15 @@ h1 {
 }
 
 #nav-bar {
+    position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    margin-left: 400px;
     }
 
-    
+#header {
+    display: flex;
+    }
 
 .nav-link {
         margin: 23px;
