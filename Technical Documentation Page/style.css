@@ -1,0 +1,49 @@
+
+  #navbar {
+    list-style-type: none;
+    width: 400px;
+    padding: 8px 16px;
+    background-color: #f1dfce;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+   #navbar a {
+       text-decoration: none;
+   }
+
+   :hover {
+       
+   }
+
+ @media only screen and (max-width: 815px) {
+    body {
+      background-color: rgb(223, 206, 159);
+    }
+}
+
+#main-doc {
+	margin: auto;
+	padding-top: 25px;
+	padding-left: 26vw;
+	padding-right: 2vw;
+	max-width: 65vw;
+    
+}
+
+.main-section header {
+    margin-bottom: 20px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.main-section code {
+    margin-right: 20px;
+    padding: 12px;
+    white-space: pre;
+    text-align: left;
+    background-color: #a0cbcc;
+    font-family: "Lucida Console", Monaco, Menlo, Consolas;
+    border-radius: 5px;
+    display: block;
+}
+
