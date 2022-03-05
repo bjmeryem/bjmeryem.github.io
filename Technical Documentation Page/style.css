@@ -1,28 +1,36 @@
-
+body {
+  background-color: rgb(241, 233, 211);
+}
   #navbar {
     list-style-type: none;
     width: 400px;
     padding: 8px 16px;
     background-color: #f1dfce;
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
     }
+ 
+  #navbar ul {
+    overflow: scroll;
+  }
 
    #navbar a {
        text-decoration: none;
    }
+   
+ul li {
+  list-style-type: none;
+}
 
-   :hover {
-       
-   }
-
- @media only screen and (max-width: 815px) {
+ @media screen and (max-width: 800px) {
     body {
-      background-color: rgb(223, 206, 159);
+      background-color: rgb(204, 189, 149);
     }
 }
 
 #main-doc {
 	margin: auto;
+  margin-bottom: 30px;
 	padding-top: 25px;
 	padding-left: 26vw;
 	padding-right: 2vw;
@@ -32,7 +40,7 @@
 
 .main-section header {
     margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 40px;
     letter-spacing: 1px;
 }
 
@@ -47,3 +55,7 @@
     display: block;
 }
 
+li h2 {
+  border: solid 2px gray;
+  list-style-type: none;
+}
