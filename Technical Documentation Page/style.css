@@ -11,11 +11,18 @@ body {
     }
  
   #navbar ul {
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  #navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
   }
 
    #navbar a {
        text-decoration: none;
+       cursor: pointer;
+       display: block;
    }
    
 ul li {
@@ -56,6 +63,5 @@ ul li {
 }
 
 li h2 {
-  border: solid 2px gray;
   list-style-type: none;
 }
