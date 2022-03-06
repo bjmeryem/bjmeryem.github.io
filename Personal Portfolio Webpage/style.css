@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(179, 64, 175);
+    position: relative; top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(250, 216, 104);
+    position: relative; top: 100px;
+}
+
+#navbar {
+	position: fixed;
+}
+
+#navbar button a {
+    padding: 20px;
+    margin: 20px;
+}
+
+#contact {
+	margin-top: 20px;
+	padding: 20px 0;
+	width: 100vw;
+	color: rgb(128, 136, 179);
+	text-align: center;
+	border-top: 2px solid rgb(92, 92, 133);
+    background-color: rgb(247, 210, 162);
+}
+
+#contact a {
+    color: rgb(177, 131, 91);
+    text-decoration: none;
+    display: inline;
+}
+@media only screen and (max-width:800px) {
+    body {
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: ;
+    }
+}
+ 
