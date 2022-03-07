@@ -3,77 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My freeCodeCamp Portfolio">
     <link rel="stylesheet" href="style.css">
     <title>Personal Portfolio Webpage</title>
 </head>
 <body>
 
     <nav id="navbar">
-        <button><a href="#welcome-section">About</a></button>
-        <button><a href="#projects">Projects</a></button>
-        <button><a href="#contact">Contact</a></button>
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
+<main>
     <section id="welcome-section">
+
         <h1>Hey I am Meryem</h1>
         <h2>a web developer</h2>
+
     </section>
 
     <section id="projects">
-        <div class="section-title">These are some of my projects</div>
-        <div class="project-tile">
+
+        <header class="project-tile">These are some of my projects</header><br><br>
+
+            <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/tribue-page/index.html " 
+               target="_blank" rel="noreferrer" id="tribute"></a>
+
+           <img class="image1"
+                 src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg"
+                 alt="Tribute Page">
+
+            <h2>Tribute Page</h2>
+
+        <header class="project-tile">
+
+            <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/survey-form/index.html" 
+               target="_blank" rel="noreferrer" id="survey-form">
+            
+                <img class="image1"
+                     src="https://i.ibb.co/CM70s8C/doctor-pic.jpg"
+                     alt="survey-form">
+
+                <h2>survey form</h2>
+            </a>
+
+        </header>
+
+        <header class="project-tile">
+
+            <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/product-landing-page/index.html" 
+               target="_blank" rel="noreferrer" id="product-landing">
+
+               <img class="image1"
+                    src="https://i.ibb.co/SnZRTXr/product-landing-page.png"
+                    alt="product-landing-page">
+
+                <h2>product landing page<h2>
+
+            </a>
+
+        </header>
+
+        <header class="project-tile">
+
+            <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/Technical%20Documentation%20Page/index.html" 
+               target="_blank" rel="noreferrer" id="Technical-Documentation">
+
+               <img class="image1"
+                    src="https://i.ibb.co/tLp7RC8/Technical-Documentation-Page.png"
+                    alt="Technical-Documentation-Page">
+
+                <h2>Technical Documentation</h2>
+            </a>
+
+        </header>
+
+    </section>
+</main>
+
+    <footer id="contact">
+        <header><h1>Let's work together...</h1></header>
+        <p>my gitHub & freeCodeCamp profiles:</p>
 
         <div>
-            <iframe src="file:///C:/Users/pc/Desktop/bjmeryem.github.io/tribue-page/index.html"></iframe>
-            <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/tribue-page/index.html">Open</a>
-        </div>
+            <a href="https://github.com/bjmeryem/bjmeryem.github.io" target="_blank"
+                rel="noreferrer" title="Check My GitHub"><i class="fab fa-github"></i>Github</a><br><br>
 
-            <header class="project-title">Tribute Page</header>
+            <a class="profile-link" href="https://www.freecodecamp.org/merybnj" target="_blank"
+                rel="noreferrer" title="Check My FreeCodeCamp Profile">
+                <i class="fab fab fa-free-code-camp"></i>FreeCodeCamp</a><br><br>
 
-        </div>
+            <a href="https://twitter.com/Meryembnj" target="_blank" rel="noreferrer" 
+               title="Check My Twitter"><i class="fab fa-twitter"></i>Twitter</a><br><br>
 
-        <div class="project-tile">
-
-            <div>
-                <iframe src="file:///C:/Users/pc/Desktop/bjmeryem.github.io/survey-form/index.html"></iframe>
-                <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/survey-form/index.html">Open</a>
-            </div>
-
-            <header class="project-title">survey form</header>
+            <a class="profile-link" href="meryemmailing@gmail.com" target="_blank" 
+               title="Contact me"><i class="far fa-envelope"></i>Gmail</a>
 
         </div>
-
-        <div class="project-tile">
-
-            <div>
-                <iframe src="file:///C:/Users/pc/Desktop/bjmeryem.github.io/product-landing-page/index.html"></iframe>
-                <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/product-landing-page/index.html">Open</a>
-            </div>
-
-            <header class="project-tile">product landing page</header>
-
-        </div>
-
-        <div class="project-tile">
-
-            <div>
-                <iframe src="file:///C:/Users/pc/Desktop/bjmeryem.github.io/Technical%20Documentation%20Page/index.html"></iframe>
-                <a href="file:///C:/Users/pc/Desktop/bjmeryem.github.io/Technical%20Documentation%20Page/index.html">Open</a>
-            </div>
-
-            <header class="project-title">Technical Documentation Page</header>
-
-        </div>
-
-    </section>
-
-    <section id="contact">
-        <div class="section-title">Contact</div>
-        <div><a href="https://github.com/bjmeryem/bjmeryem.github.io" target="_blank" id="profile-link">Visit Github</a></div><br><br>
-        <div><a href="https://www.facebook.com/mbenjel/" target="_blank" id="profile-link">Visit Facebook</a></div><br><br>
-        <div><a href="https://twitter.com/Meryembnj" target="_blank" id="profile-link">Visit Twitter</a></div><br><br>
-        <div><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" id="profile-link">Visit Gmail</a></div>
-    </section>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go up">Back up</button>
 
 </body>
 </html

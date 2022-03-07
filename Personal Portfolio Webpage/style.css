@@ -1,46 +1,109 @@
-h1 {
-    text-align: center;
-    font-size: 80px;
-    color: rgb(179, 64, 175);
-    position: relative; top: 100px;
-}
-
-h2 {
-    text-align: center;
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(62deg, #56d39f 0%, #a850a8 100%);
     font-size: 40px;
-    color: rgb(250, 216, 104);
-    position: relative; top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b164b;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(43, 61, 112);
 }
 
 #navbar {
 	position: fixed;
+    display: flex;
+    justify-content: center;
+    margin-left: 900px;
+    background-color: #683b68;
+    z-index: 10;
 }
 
-#navbar button a {
+#navbar ul {
+    display: flex;
+    margin-right: 3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a:hover {
+    background: rgb(206, 179, 238);
+    border-radius: 3%;
+}
+
+#navbar li a {
     padding: 20px;
     margin: 20px;
-}
-
-#contact {
-	margin-top: 20px;
-	padding: 20px 0;
-	width: 100vw;
-	color: rgb(128, 136, 179);
-	text-align: center;
-	border-top: 2px solid rgb(92, 92, 133);
-    background-color: rgb(247, 210, 162);
-}
-
-#contact a {
-    color: rgb(177, 131, 91);
+    font-size: 30px;
     text-decoration: none;
-    display: inline;
+    color: #e9dd74;
 }
+
+body {
+    background-color: rgb(164, 127, 189);
+}
+
+img {
+    height: 60vh;
+    border-radius: 10px;
+    width: 30%;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    padding-bottom: 3%;
+}
+
+button {
+    font-size: larger;
+    color: #e9dd74;
+    width: 100px;
+    height: 60px;
+    background-color: #683b68;
+}
+.project-tile {
+    text-align: center;
+    font-size: 40px;
+    color: #e9dd74;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    font-size: 40px;
+    border: solid black 3px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+div a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 60px;
+    color: #e9dd74;
+}
+p {
+    font-size: 30px;
+    color: rgb(43, 61, 112);
+}
+
 @media only screen and (max-width:800px) {
     body {
-        background-image: url();
-        background-repeat: no-repeat;
-        background-size: ;
+        background-color: rgb(164, 127, 189);
     }
 }
- 
